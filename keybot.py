@@ -28,7 +28,7 @@ class MyClient(discord.Client):
         self.commandsChannel = None
         print(MSG_LOADED_DATA.format(len(self.availableKeys), len(self.hasKey)))
 
-    #Method for logging things both to console and to a channel
+    #Method for logging things both to the log and to a channel
     async def log(self, message):
         logger.info(message)
         return await self.logChannel.send(message)
