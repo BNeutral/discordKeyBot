@@ -7,11 +7,12 @@
 # Setup
 
 * Add the bot to your server using the link created at the discord dev page for the app, under OAuth2 submenu
+* Modify config.py to your liking
 * Create a secrets.py file with the content:
 
 ```
-BOT_TOKEN = <your bot token here, as a string>
-SPREADSHEET_IDS = <your spreadsheet ids here, as a list of strings>
+BOT_TOKEN = <your bot token here, as a string. for example "AabB123...">
+SPREADSHEET_IDS = <your spreadsheet ids here, as a list of strings, for example ["AabB123...","CabB123..."]>
 ```
 
 * Spreadsheet IDs can be found in the url. Bot token in the discord dev page.
